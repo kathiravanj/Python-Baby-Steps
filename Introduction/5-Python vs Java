@@ -1,0 +1,12 @@
+Python	Java
+1.Dynamically Typed1.No need to declare anything. 
+An assignment statement binds a name to an object, and the object can be of any type.2.No type casting required when using container objects	Statically Typed 1.All variable names (along with their types) must be explicitly declared. Attempting to assign an object of the wrong type to a variable name triggers a type exception.2.Type casting is required when using container objects.
+
+2.Concise Express much in limited words	Verbose
+Contains more words
+
+3.Compact	
+Less Compact
+
+4.Uses Indentation for structuring code	
+Uses braces for structuring code
