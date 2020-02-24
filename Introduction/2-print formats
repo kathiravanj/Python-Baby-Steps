@@ -1,1 +1,59 @@
 print("Hello, World!")
+
+#To use formatted string literals, begin a string with f or F before the opening quotation mark or triple quotation mark.
+name = 'Abby'
+age = 13
+print(f"Hello, My name is {name} and I'm {age} years old.") 
+
+#The str.format() method of strings help a user to get a fancier Output
+print ("{}, A purely object oriented Programming language.".format("Python"))
+
+myString = "{}, A purely object oriented Programming language."
+print (str.format("Python"))
+
+print ("Python has {} major Datatypes!".format(5)) #interger
+
+myString = "{} and {} can be accomplished using {}"
+print (my_string.format("Data Analytics", "Machine Learning", "Python")) #order matters
+print (my_string.format("Data Analytics", "Machine Learning")) # IndexError: tuple index out of range
+
+print ("Hi ! I am learning {} for {} th semester".format("Python", 6)) #different datatypes can be used in formatting 
+
+print("{1} love {0}!!".format("Python", "I")) # orders can be changes using index numbers
+
+print("{lang} implements {0} and {1}".format("Inheritance", "polymorphism", lang ="Python")) # keyword arguments can also be used
+
+#Type Specification
+s – strings
+d – decimal integers (base-10)
+f – floating point display
+c – character
+b – binary
+o – octal
+x – hexadecimal with lowercase letters after 9
+X – hexadecimal with uppercase letters after 9
+e – exponent notation
+
+Syntax is {field_name:conversion} where ield_name specifies the index number of the argument to the str.format() method, 
+and conversion refers to the conversion code of the data type
+
+print("Bobbby's height is {0:.0f} feet !" .format(6.555)) # do not try to convert float to decimal as it will end up in type conversion error
+
+# Convert base-10 decimal integers floating point numeric constants 
+print ("Python is {0:f}% pure {1}!!". format(100, "OOPS")) 
+  
+# To limit the precision 
+print ("My average of this {0} was {1:.2f}%".format("semester", 78.234876)) 
+  
+# For no decimal places 
+print ("My average of this {0} was {1:.0f}%"
+            .format("semester", 78.234876)) 
+  
+# Convert an integer to its binary or 
+# with other different converted bases. 
+print("The {0} of 100 is {1:b}"
+        .format("binary", 100)) 
+          
+print("The {0} of 100 is {1:o}"
+        .format("octal", 100)) 
+        
