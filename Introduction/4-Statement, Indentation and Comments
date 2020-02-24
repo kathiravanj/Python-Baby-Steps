@@ -1,0 +1,31 @@
+#Multi lime Declared using Continuation Character (\):
+s = 1 + 2 + 3 + \
+    4 + 5 + 6 + \
+    7 + 8 + 9
+print(s)
+
+#Identation
+j = 1
+while(j<= 5): 
+     print(j) 
+     j = j + 1
+     
+#Comments starts with a #, and Python will ignore them
+print("Hello, World!") #This is a comment
+
+#Multi Line Comments
+#This is a comment
+#written in
+#more than just one line
+print("Hello, World!")
+
+#multiline string.
+#Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code
+#and place your comment inside it
+
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!")
