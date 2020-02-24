@@ -1,5 +1,13 @@
 print("Hello, World!")
 
+#How to print blank lines
+print ("\n\n\n\n\n\n\n\n\n")
+print (8 * "\n")
+
+#Print end command
+print ("Welcome to", end = ' ') 
+print ("Python session", end = '!')
+
 #To use formatted string literals, begin a string with f or F before the opening quotation mark or triple quotation mark.
 name = 'Abby'
 age = 13
