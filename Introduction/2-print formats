@@ -52,4 +52,25 @@ print ("My average of this {0} was {1:.0f}%".format("semester", 78.234876))
 print("The {0} of 100 is {1:b}".format("binary", 100)) 
           
 print("The {0} of 100 is {1:o}".format("octal", 100)) 
-        
+
+#By default strings are left-justified within the field, and numbers are right-justified. 
+We can modify this by placing an alignment code just following the colon.
+
+<   :  left-align text in the field
+^   :  center text in the field
+>   :  right-align text in the field
+
+# To demonstrate spacing when  strings are passed as parameters 
+print("{0:4} works well with {1:8}!".format("pandas", "tabular data")) 
+  
+# To demonstrate spacing when numeric constants are passed as parameters. 
+print("Python is more than {0:5} years old !".format(30)) 
+  
+# To demonstrate both string and numeric constants passed as parameters 
+print("{0:4} was founded in {1:16}!".format("Python", 1989)) 
+  
+  
+# To demonstrate aligning of spaces 
+print("{0:^16} was founded in {1:<4}!".format("Python", 1989)) 
+  
+print("{:*^20s}".format("Python")) 
