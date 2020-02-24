@@ -10,3 +10,14 @@ Less Compact
 
 4.Uses Indentation for structuring code	
 Uses braces for structuring code
+
+5. print "Hello, world!"
+
+public class HelloWorld 
+{ 
+   public static void main (String[] args) 
+   { 
+      System.out.println("Hello, world!"); 
+   } 
+} 
+
