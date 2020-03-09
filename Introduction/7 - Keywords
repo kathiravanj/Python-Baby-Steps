@@ -67,3 +67,14 @@ def demo_nonlocal():
 demo_nonlocal() 
 -- demonstrating non local inner loop changing the value of outer a prints 20
 -- remove the nonlocal a and it will print 10
+
+8. Keyword Module
+=================
+import keyword 
+print(keyword.iskeyword("for1"))
+
+9. end
+=======
+print without adding a line after printing.
+print("hello", end = ' ')
+print("world")
