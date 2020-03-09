@@ -9,3 +9,10 @@ print("\"Python\" haven't been so easy")
   
 # Printing Paths 
 print("C:\\Python\\test\\")
+
+
+#To ignore the escape sequences in a String, r or R is used, this implies that the string is a raw string 
+#and escape sequences inside it are to be ignored.
+
+print("\x41 \x42")
+print(r"\x41 \x42")
