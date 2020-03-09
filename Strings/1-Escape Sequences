@@ -1,0 +1,11 @@
+# string with combination of double and single qoutes - use triple quotes
+print('''"Python" haven't been so easy''')
+  
+# Escaping Single Quote  - if string enclosed in single
+print('"Python" haven\'t been so easy')
+
+# Escaping Doule Quotes - if string enclosed in double
+print("\"Python\" haven't been so easy")
+  
+# Printing Paths 
+print("C:\\Python\\test\\")
