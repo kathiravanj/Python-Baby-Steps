@@ -1,0 +1,69 @@
+1. True
+=======
+represents a boolean true or 1
+
+2. False
+=========
+represents a boolean false or 0.
+
+print (False == 0) -- True
+print (True == 1) -- True
+
+3.None
+=======
+denote a null value or a void. 
+zero or an empty list is NOT equals None.
+
+print (None == 0) -- False
+
+It is an object of its own datatype – NoneType. So, two nulls are equal.
+
+x = None
+y = None
+print (x == y) -- True
+
+4. and, or, not
+================
+print (True or False) 
+print (False and True)
+print (not True) 
+
+5. pass 
+=======
+It is the null statement in python. Used as a placeholder.
+
+def new_function():
+    pass
+
+new_function()
+print("demo on pass")
+
+6. global
+===========
+This keyword is used to define a variable inside the function to be of a global scope.
+
+num = 10
+def demo_global(): 
+    global num
+    num = num + 1
+    print(num) 
+demo_global() 
+
+7.non-local : 
+=============
+This keyword works similar to the global, but rather than global, 
+this keyword declares a variable to point to variable of outside enclosing function, 
+in case of nested functions.
+
+print ("nonlocal value : ",end="") 
+def demo_nonlocal(): 
+    a = 10
+    def inner_method(): 
+        nonlocal a  
+        a = 20
+    inner_method() 
+    print (a) 
+    
+demo_nonlocal() 
+-- demonstrating non local inner loop changing the value of outer a prints 20
+-- remove the nonlocal a and it will print 10
